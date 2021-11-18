@@ -111,4 +111,25 @@
     }
 }
 
+/* Esercizio 11 */
+
+
+.ex-11-icon{
+transition: 0.1s;
+}
+.ex-11-icon:hover{
+    animation: spin 2s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin{
+
+    0%{
+        transform: rotate(0);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+}
+
 
