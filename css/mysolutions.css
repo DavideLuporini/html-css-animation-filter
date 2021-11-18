@@ -135,15 +135,33 @@ transition: 0.1s;
 
 
 .ex-12-button:hover .ex-12-top-white{
-   transform: translate(115px);
+   animation: translate-top 2s;
 }
 .ex-12-button:hover .ex-12-bottom-white{
-   transform: translate(-96px);
+   animation: translate-bot 2s;
 }
 
-.ex-12-top-white{
-    transition: 2s;
+@keyframes translate-bot {
+    0%{
+        transform: translate(0);
+    }
+    33%{
+        transform: translate(-90px);
+    }
+    100%{
+        transform: translate(0);
+    }
 }
-.ex-12-bottom-white{
-    transition: 2s;
+
+@keyframes translate-top {
+    0%{
+        transform: translate(0);
+    }
+    33%{
+        transform: translate(90px);
+    }
+    100%{
+        transform: translate(0);
+    }
 }
+
