@@ -60,6 +60,39 @@
   filter: grayscale(1);
 }
 
+/* Esercizio 7 */
+
+
+.ex-7-img{
+  transition: 2s;
+}
+.ex-7-img:hover{
+  filter: grayscale(0.4) sepia(0.6);
+}
+
+/* Esercizio 8 */
+
+
+.ex-8-img{
+  transition: 2s;
+}
+.ex-8-img:hover{
+  filter: grayscale(0.4) sepia(0.6);
+  border-radius: 20px;
+}
+
+/* Esercizio 9 */
+
+
+.ex-9-img{
+  transition: 2s;
+}
+.ex-9-img:hover{
+  filter: grayscale(0.4) sepia(0.6);
+  transform: scale(1.5);
+  border-radius: 20px;
+}
+
 
 
 
