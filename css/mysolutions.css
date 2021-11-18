@@ -131,5 +131,19 @@ transition: 0.1s;
         transform: rotate(270deg);
     }
 }
+/* Esercizio 12 */
 
 
+.ex-12-button:hover .ex-12-top-white{
+   transform: translate(115px);
+}
+.ex-12-button:hover .ex-12-bottom-white{
+   transform: translate(-96px);
+}
+
+.ex-12-top-white{
+    transition: 2s;
+}
+.ex-12-bottom-white{
+    transition: 2s;
+}
